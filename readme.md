@@ -1,4 +1,4 @@
-# **Nocker**
+# **Nocker-App**
 
 Super Simple Node.js App Template running over Docker
 
@@ -7,6 +7,7 @@ Super Simple Node.js App Template running over Docker
 - Yarn (using cache)
 - Docker
 - Docker Compose
+- ExpressJS
 
 
 ## How to use?
