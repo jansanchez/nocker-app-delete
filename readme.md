@@ -1,11 +1,10 @@
 # **Nocker**
 
-Super Simple Node.js Web App Template build with Docker
+Super Simple Node.js App Template running over Docker
 
 **Includes:**
-- NodeJS
-- Yarn (cache)
 - NodeJS with ES2015 (babel)
+- Yarn (using cache)
 - Docker
 - Docker Compose
 
@@ -40,6 +39,11 @@ So, open the browser....
 ## How to add other dependencies?
 ```
 ./docker/scripts/supply.sh deps yarn add css-url-versioner
+```
+
+## How to run other tasks?
+```
+./docker/scripts/supply.sh deps yarn run start
 ```
 
 ## How to kill it?
