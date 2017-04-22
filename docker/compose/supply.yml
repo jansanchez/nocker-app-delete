@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  deps:
+    image: js/nocker
+    user: node
+    command: yarn install
+    volumes:
+      - ~/yarn_cache/:/tmp/cache/yarn/
+      - ../../app/:/home/node/app/
