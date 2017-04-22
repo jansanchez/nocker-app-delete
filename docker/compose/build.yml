@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  nodejs:
+    image: js/nocker
+    build:
+      context: ../node/
